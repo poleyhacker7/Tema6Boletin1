@@ -6,7 +6,7 @@ import java.util.*;
 
 public class Main {
 
-    static final String FICHERO = "src/ejercicio8/temperaturas.txt";
+    static final String FICHERO = "boletin1/ejercicio08/temperaturas";
 
     public static void main(String[] args) {
 

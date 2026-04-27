@@ -6,7 +6,7 @@ import java.util.*;
 public class Main {
 
     static final int MAX = 20;
-    static final String FICHERO = "src/ejercicio7/agenda.txt";
+    static final String FICHERO = "boletin1/ejercicio07/agenda";
     static TreeMap<String, String> agenda = new TreeMap<>();
 
     public static void main(String[] args) {

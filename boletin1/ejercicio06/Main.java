@@ -1,4 +1,4 @@
-package ejercicio06;
+	package ejercicio06;
 
 import java.io.*;
 import java.util.*;
@@ -10,7 +10,7 @@ public class Main {
         List<Integer> numeros = new ArrayList<>();
 
         // Lectura
-        try (BufferedReader br = new BufferedReader(new FileReader("src/ejercicio06/numeros.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("boletin1/ejercicio06/Numeros"))) {
 
             String linea;
             while ((linea = br.readLine()) != null) {
@@ -26,7 +26,7 @@ public class Main {
         Collections.sort(numeros);
 
         // Escritura
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter("src/ejercicio06/numerosOrdenados.txt"))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter("boletin1/ejercicio06/NumerosOrdenados"))) {
 
             for (int n : numeros) {
                 bw.write(String.valueOf(n));
