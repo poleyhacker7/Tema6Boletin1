@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        try (Scanner sc = new Scanner(new FileReader("boletin1/ejercicio01/NumerosReales"))) {
+        try (Scanner sc = new Scanner(new FileReader("boletin1/ejercicio01/NumerosReales.txt"))) {
 
             double suma = 0;
             int cantidad = 0;

@@ -1,0 +1,7 @@
+Nombre,Edad,Peso,Estatura
+Juan Pedro Pérez Gómez,25,70.5,1.80
+Ana Ruiz del Val,23,60.0,1.75
+Carlos Martínez López,31,85.3,1.90
+Lucía Fernández Gil,28,55.0,1.68
+Miguel Ángel Torres,19,75.0,1.83
+Sara Gómez Navarro,22,58.5,1.70

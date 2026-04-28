@@ -1,0 +1,5 @@
+Hola me llamo Juan y tengo 22 años.
+Vivo en Sevilla y estudio informatica.
+Me gusta el deporte y la musica.
+Esta línea es igual en los dos ficheros.
+Aqui empieza la diferenXia entre ambos.

@@ -15,7 +15,7 @@ public class Main {
         System.out.print("Introduce tu edad: ");
         int edad = Integer.parseInt(sc.nextLine());
 
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter("boletin1/ejercicio05/datos", true))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter("boletin1/ejercicio05/Datos.txt", true))) {
 
             bw.write(nombre + " " + edad);
             bw.newLine();

@@ -9,7 +9,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter("boletin1/ejercicio04/cadenas.txt"))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter("boletin1/ejercicio04/Cadenas.txt"))) {
 
             System.out.println("Introduce cadenas de texto ('fin' para terminar):");
 
@@ -24,7 +24,7 @@ public class Main {
                 bw.newLine();
             }
 
-            System.out.println("Cadenas guardadas en cadenas.txt");
+            System.out.println("Cadenas guardadas en Cadenas.txt");
 
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());

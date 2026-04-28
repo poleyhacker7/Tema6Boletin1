@@ -10,7 +10,7 @@ public class Main {
         List<Integer> numeros = new ArrayList<>();
 
         // Lectura
-        try (BufferedReader br = new BufferedReader(new FileReader("boletin1/ejercicio06/Numeros"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("boletin1/ejercicio06/Numeros.txt"))) {
 
             String linea;
             while ((linea = br.readLine()) != null) {
@@ -26,7 +26,7 @@ public class Main {
         Collections.sort(numeros);
 
         // Escritura
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter("boletin1/ejercicio06/NumerosOrdenados"))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter("boletin1/ejercicio06/NumerosOrdenados.txt"))) {
 
             for (int n : numeros) {
                 bw.write(String.valueOf(n));
